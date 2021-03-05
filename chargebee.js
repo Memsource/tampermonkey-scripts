@@ -7,7 +7,7 @@
 // @match        https://memsource-test.chargebee.com/customers/*/details
 // @grant        none
 // @require      http://code.jquery.com/jquery-3.4.1.min.js
-// @downloadURL  https://gitlab.memsource.com/dev/web/raw/master/src/gitlab/tampermonkey/targetprocess-links-in-gitlab.js
+// @downloadURL  https://raw.githubusercontent.com/Memsource/tampermonkey-scripts/main/chargebee.js
 // ==/UserScript==
 
 (function() {
