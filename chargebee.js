@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Chargebee
 // @namespace    http://tampermonkey.net/
-// @version      0.1
+// @version      0.2
 // @description  Chargebee
 // @author       Michal Kebrt
 // @match        https://memsource-test.chargebee.com/customers/*/details
