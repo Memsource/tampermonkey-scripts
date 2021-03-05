@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Chargebee
 // @namespace    http://tampermonkey.net/
-// @version      0.2
+// @version      0.3
 // @description  Chargebee
 // @author       Michal Kebrt
 // @match        https://memsource-test.chargebee.com/customers/*/details
@@ -15,6 +15,6 @@
 
     var dt = $("dt:contains('Numeric Id')");
     var dd = dt.next();
-    dd.html('<a target="_blank" href="https://cloud.memsource.com/web/organization/editSys/' + dd.text() + '">' + dd.text() + '</a>');
+    dd.html('<a target="_blank" href="https://cloud.memsource.com/web/organization/list?name=' + dd.text() + '">' + dd.text() + '</a>');
 
 })();
